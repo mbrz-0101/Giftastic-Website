@@ -1,4 +1,4 @@
-/* Set styles for body, buttons, and gifs */
+/* Set styles for body, content space, buttons, and gifs */
 body {
   background-image: url("../images/dust_scratches.png");
 }
@@ -7,6 +7,9 @@ button {
 }
 img {
   margin: 10px;
+}
+#content {
+  margin-top: 40px;
 }
 
 /* Changes reaction button styling */
