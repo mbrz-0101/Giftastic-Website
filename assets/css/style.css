@@ -1,3 +1,4 @@
+/* Set styles for body, buttons, and gifs */
 body {
   background-image: url("../images/dust_scratches.png");
 }
@@ -7,6 +8,8 @@ button {
 img {
   margin: 10px;
 }
+
+/* Changes reaction button styling */
 .reaction-button {
   background-color: cadetblue;
   border: none;

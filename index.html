@@ -6,22 +6,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Gif-tastic!</title>
+  <!-- Favicon -->
   <link rel="icon" type="image/png" href="assets/images/giphy-icon.png" />
+  <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
+  <!-- Local CSS -->
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 
+<!-- Load app on page load -->
 <body onload="giphyApp();">
+
   <div class="container-fluid">
+
     <div class="row">
+      <!-- Button space to be dynamimcally populated by JS -->
       <div class="col-md-12" id="button-space">
 
       </div>
     </div>
+
     <div class="row">
-      <div class="col-sm-12 col-md-8" id="gif-space"></div>
-      <div class="col-sm-12 col-md-4" id="search-space">
+      <!-- Gif space to be dynamically populated by JS -->
+      <div class="col-sm-12 col-md-8" id="gif-space">
+
+      </div>
+
+      <!-- Reaction addition space -->
+      <div class="col-sm-12 col-md-4">
         <form>
           <div class="form-group">
             <label>Add a reaction!</label>
@@ -33,7 +46,9 @@
     </div>
   </div>
 
+  <!-- jQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- giphyApp local JS -->
   <script src="assets/javascript/app.js"></script>
 </body>
 
