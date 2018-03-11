@@ -1,0 +1,17 @@
+body {
+  background-image: url("../images/dust_scratches.png");
+}
+button {
+  margin: 2px 2px;
+}
+img {
+  margin: 10px;
+}
+.reaction-button {
+  background-color: cadetblue;
+  border: none;
+  color: white;
+}
+.reaction-button:hover {
+  background-color: rgb(84, 139, 141);
+}
