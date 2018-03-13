@@ -65,6 +65,7 @@ function giphyApp() {
 
     });
 
+  }
     // When the user clicks any gif, this will toggle it between still and animated using the attributes specified above
     $(document).on("click", ".gif", function () {
       let state = $(this).attr("data-state");
@@ -79,7 +80,5 @@ function giphyApp() {
         $(this).attr("data-state", "still");
       }
     });
-  }
-
 
 }
